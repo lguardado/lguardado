@@ -1,0 +1,270 @@
+// font family
+$font-family: 'Open Sans', sans-serif;
+$font-family-condensed: 'Open Sans Condensed', sans-serif;
+
+// font weight
+$font-bolder: 800;
+$font-bold: 700;
+$font-semi-bold: 600;
+$font-regular: 400;
+$font-light: 300;
+
+// colors
+$red-color: #bb2332;
+$black-color: #000000;
+$white-color: #ffffff;
+$yellow-color: #fed136;
+$soft-yellow-color: #f9e7a6;
+$charcoal-color: #404041;
+$warm-gray-color: #6f6d6d;
+$almost-white: #fafafb;
+$neutral-gray: #dbdbdb;
+$light-gray-color: #a7a9ab;
+$wash-gray-color: #f1f1f2;
+$blue-color: #2c70ba;
+$error-red-color: #df0000;
+$green-color: #008700;
+$orange-color: #fc650D;
+$edit-blue-color: #2c70ba;
+$dark-blue-color: #003E7E;
+$brownish-grey: #5c5a5a;
+$dark-gray-color: #4c4b4b;
+
+// button:hover colors
+$button-hover-dark-red-color: #8c1a19;
+$button-hover-dark-charcoal-color: #303030;
+$button-hover-dark-neutral-gray: #a4a4a4;
+
+
+// social media colors
+$facebook-color: #3B5998;
+$twitter-color: #55acee;
+$googleplus-color: #dd4b39;
+$linkedin-color: #0077B5;
+$youtube-color: #bb0000;
+
+//global header colors
+$dark-gray-color: #555;
+$header-gray-color: #808285;
+
+// temporary colors
+$gray-color-2: #bbbdc0;
+$gray-color-3: #e6e7e8;
+$gray-color-4: #515152;
+$gray-color-5: #bbbdc0;
+$gray-color-6: #979797;
+$gray-color-7: #e4e4e4;
+$gray-color-8: #58585b;
+$gray-color-10: #0d1e32;
+$gray-color-11: #808284;
+$gray-color-12: #323236;
+$yellow-color: #f5c923;
+$light-green-color: #afce4a;
+
+//opacity-colors
+$gray-opacity: rgba(167, 169, 171, 0.5);
+$black-opacity: rgba(0, 0, 0, 0.5);
+$black-opacity-1: rgba(0, 0, 0, 0.9);
+$black-opacity-25: rgba(0, 0, 0, 0.25);
+$black-opacity-0: rgba(0, 0, 0, 0);
+
+//font-sizes
+$caption-font-size: (
+  sm: 12px,
+  null: 11px
+);
+
+$input-error-font-size: (
+  null: 12px
+);
+
+$xx-small-font-size: (
+  null: 12px
+);
+
+$x-small-font-size: (
+  null: 13px
+);
+
+
+$xxx-small-font-size: (
+  null: 11px
+);
+$small-font-size: (
+  null: 14px
+);
+
+$medium-font-size: (
+  null: 16px
+);
+
+$x-medium-font-size: (
+  null: 18px
+);
+
+$large-font-size: (
+  null: 20px
+);
+
+$x-large-font-size: (
+  null: 22px
+);
+
+$title-small-font-size: (
+  null: 24px
+);
+
+$title-medium-font-size: (
+  null: 28px
+);
+
+$title-large-font-size: (
+  null: 32px
+);
+
+//custom font sizes
+$bigger-font-size: (
+  null: 40px
+);
+
+//icon-font sizes
+$toolbar-icon-size: (
+  null: 22px
+);
+
+//social media icon-font sizes
+$social-icon-size: (
+  null: 20px
+);
+
+$google-plus-icon-size: (
+  null: 18px
+);
+
+$twitter-icon-size: (
+  null: 16px
+);
+
+//temporary fonts
+$regular-font-sizes: (
+  null: 13px,
+  md: 14px
+);
+
+$very-small-font-sizes: (
+  null: 10px,
+  md: 11px
+);
+
+$small-font-sizes: (
+  null: 11px,
+  md: 12px
+);
+
+$bold-font-sizes: (
+  null: 14px,
+  md: 16px
+);
+
+$title-font-sizes: (
+  null: 13px,
+  md: 14px
+);
+
+$medium-font-sizes: (
+  null: 16px,
+  md: 18px
+);
+
+$sub-title-font-sizes: (
+  null: 14px
+);
+
+$activity-font-sizes: (
+  null: 16px,
+  md: 20px
+);
+
+$big-font-sizes: (
+  null: 16px,
+  md: 18px
+);
+
+$bigger-font-sizes: (
+  null: 16px,
+  sm: 18px,
+  md: 24px
+);
+
+$search-help-font-size: (
+  null: 18px,
+  sm: 22px,
+  md: 28px
+);
+$search-font-size: (
+  null: 28px,
+  sm: 22px,
+  md: 28px
+);
+
+$recent-activity-font-size: (
+  null: 18px,
+  sm: 22px,
+  md: 28px
+);
+
+$i-want-font-size: (
+  sm: 28px,
+  md: 28px,
+  lg: 40px
+);
+
+$search-results-font-size: (
+  null: 14px,
+  sm: 16px,
+  md: 18px
+);
+
+//== Media queries breakpoints from bootstrap
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+$screen-xs:                  480px;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+$breakpoints: (
+  xs: $screen-xs,
+  sm: $screen-sm,
+  md: $screen-md,
+  lg: $screen-lg
+);
+

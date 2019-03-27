@@ -1,0 +1,102 @@
+{
+  "APP": {
+    "WELCOME": "Lucas Guardado"
+  },
+  "HEADER": {
+    "BORN": "Born in Buenos Aires, Argentina - 1981",
+    "INTRO": "I'm a passionate developer ready to address new challenges and oportunities to improve my expertise.",
+    "TELL_ME_MORE": "Tell Me More"
+  },
+  "NAVBAR": {
+    "SKILLS": "Skills",
+    "EXPERIENCE": "Experience",
+    "FEEDBACK": "Feedback",
+    "CONTACT": "Contact",
+    "DOWNLOAD": "Download"
+  },
+  "EDUCATION": {
+    "EDUCATION": "Education",
+    "SA": "System Analist",
+    "ORT": "Ort Institute - Completed",
+    "ELECTRONICS": "Electronics Technician",
+    "LA_SALETTE": "La Salette Institute - Completed"
+  },
+  "ABOUT_SECTION": {
+    "EXPERIENCE": "Working experience",
+    "DEC_NOW": "December 2015 - now",
+    "MAY_DEC": "May 2015 - December 2015",
+    "MARCH_AUG": "March 2006 - August 2014",
+    "AUG_APR": "August 2014 - April 2015",
+    "SOLSTICE_INTRO": "I'm currently working at Solstice as a Technical Consultant. My job is not only to deliver reusable and scalable code, but also to be able to guide our clients from a technical perspective to obtain an excellent product",
+    "IATASA_INTRO": "Worked at Iatasa engineering as a .Net developer and I had the chance to take control of an external contracted company's Android project and take care from that moment.",
+    "CABLEVISION": "Cablevisión - Fibertel - Personal",
+    "CABLEVISION_INTRO": "I worked as a technical administrative at Cablevisión, the biggest internet, television and telephony provider in Argentina. It's present in 12 provinces and more than 100 towns in Argentina and Uruguay.",
+    "ACCESS": "Access Informática",
+    "ACCESS_INTRO": "A teacher recruited me to work with him at his company. As a .Net developer I was able to work and know the business model of ART (aseguradoras de riesgos de trabajo) and medical companies conectivity.",
+    "MY_WORK_AT": "My work at",
+    "CURRENT_PROYECT":"Current project: ",
+    "OTHER_TECHS":"Other technologies learned: ",
+    "MORE_ABOUT": "more about",
+    "SOLSTICE": {
+      "SOLSTICE": "Solstice",
+      "BIO": "The backbone of our organization. Consultants have proven themselves as self-managed individual contributors; they work to empower themselves and others around them. They have the ability to serve in the functional or technical lead role for a smaller projects (ie. as Scrum Master or senior developer/team lead) They are comfortable facilitating client-facing meetings during project delivery.",
+      "POSITION": "Technical Consultant",
+      "CURRENT": "HTML5, SCSS, JavaScript, ES6.",
+      "OTHER": "Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
+      "MORE": "Solstice helps Fortune 500 companies take their customers' breath away, capture new market share, and ultimately discover the incredible potential they've yet to tap into.",
+      "MORE_URL": "assets/img/about/solstice_more_about.png",
+      "MORE_PART2": "We’ve been around for a long time and have no signs of slowing down. We’ve created and sustained life in seemingly impossible ways. And when harnessed properly, we generate a force of change unlike anything else. When it comes to the future of your business, we’re the burst of energy you need to get past theory, to get past hearsay and make a decision: Are you going to be a spectator to the unstoppable technological advances heading your way, or will you lead them?",
+      "URL": "https://www.solstice.com/join-our-team-buenos-aires",
+      "IMAGE_URL": "/assets/img/about/solstice_more_about.png"
+    },
+    "IATASA": {
+      "IATASA": "Iatasa engineering",
+      "POSITION": ".Net / Android Developer",
+      "BIO": "Develop, improvement and maintenance of urban cleaning management systems, engineering contract management systems through a web and Android mobile app.",
+      "CURRENT": "HTML5, SCSS, JavaScript, ES6.",
+      "OTHER": "Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
+      "URL": "http://iatasa.com/Web/Default.aspx",
+      "IMAGE_URL": "/assets/img/about/iatasa_modal_content.jpg"
+    }
+  },
+  "SKILLS": {
+    "SKILLS": "Skills",
+    "FE_BE": "Frontend / Backend",
+    "ANGULAR": "Angular 6",
+    "HTML_CSS": "HTML5 / CSS3 / SCSS",
+    "JAVASCRIPT": "Javascript/ES6",
+    "BOOTSTRAP": "Bootstrap",
+    "GIT": "Git",
+    "IONIC": "Ionic",
+    "MULESOFT": "Mulesoft Anypoint studio",
+    "REACT": "React",
+    "ANDROID": "Android",
+    "TDD": "TDD",
+    "NODE": "Node.js",
+    "SCRUM": "Scrum methodology",
+    "SCRUM_DETAILS": "For the last 3 years, I have been working using Scrum methodology: a process in which good practices are applied regularly to work collaboratively and as a team in order to obtain the best results possible within a project.",
+    "ENGLISH": "English",
+    "ENGLISH_DETAILS": "I have an advanced and fluid english level. I work on mixed teams between people in Buenos Aires and Chicago, which allows me to practice and improve my language daily."
+  },
+  "CONTACT": {
+    "CONTACT_ME": "Contact me",
+    "CONTACT_INFO": "If you want to contact me, you can leave a message in",
+    "EMAIL": "lucas.guardado@gmail.com",
+    "LINKEDIN": "Or you can check my LinkedIn profile"
+  },
+  "PRINT": {
+    "CV": "CV - Printable version",
+    "YOU_CAN_DOWNLOAD": "You can download a PDF version of my CV clicking"
+  }, 
+  "FEEDBACK": {
+    "ABOUT": "Feedback about me!",
+    "INTRO": "Every 3 months I get feedback from my closer co-workers in a process called 360 review. Here are some of the opinions about me from my co-workers in Chicago!"
+  },
+  "FOOTER" : {
+    "UPDATED": "Updated"
+  },
+  "SITE": "Website",
+  "READ_MORE": "Read more",
+  "LANG": "Es",
+  "HERE": "Here!"
+}

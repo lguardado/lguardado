@@ -1,0 +1,40 @@
+@import '../../css/styles/mixins';
+
+.feedback-intro {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.feedback-member {
+  @include flex;
+  @include flex-direction(column);
+  margin-bottom: 50px;
+  text-align: center;
+  .rounded-circle {
+    @include transition(0.3s ease-in);
+    &:hover {
+      @include box-shadow(3px 0px 25px #989898);
+      @include transition(0.3s ease-in);
+    }
+  }
+  .portfolio-link {
+    color: #298be4;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border: 7px solid #fff;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+  .feedback-text {
+    font-style: italic;
+  }
+}

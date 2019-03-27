@@ -1,0 +1,22 @@
+.navbar {
+  z-index: 200;
+  &.scrolling {
+    background: black;
+    padding: 0 20px;
+  transition-duration: .3s;
+  }
+  transition-duration: .3s;
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  .navbar-option { 
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Roboto';
+    color: white;
+  }
+
+  .lang-button {
+    width: 25px;
+  }
+}

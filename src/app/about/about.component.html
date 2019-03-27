@@ -1,0 +1,107 @@
+
+  <!-- About -->
+  <section>
+      <ol>
+          <li>
+            <button mat-raised-button (click)="openDialog()">Pick one</button>
+          </li>
+        </ol>
+    <div class="section-marker" id="about"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ 'ABOUT_SECTION.EXPERIENCE' | translate}}</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li class="timeline-item">
+                <div class="timeline-image">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                      <img class="rounded-circle img-fluid" src="assets/img/about/solstice.jpg" alt="">
+                    </a>
+                  </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5>{{ "ABOUT_SECTION.DEC_NOW" | translate }}</h5>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.SOLSTICE.SOLSTICE" | translate }}</h4>
+                  <a class="portfolio-link" href="https://www.solstice.com/join-our-team-buenos-aires" target="_blank">{{ 'SITE' | translate}}</a>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">{{ "ABOUT_SECTION.SOLSTICE_INTRO" | translate }}</p>
+                  <div class="portfolio-link" data-toggle="modal" (click)="openDialog('Solstice')"> {{ 'READ_MORE' | translate }}
+                  </div>
+
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted timeline-item">
+              <div class="timeline-image">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                  <img class="rounded-circle img-fluid" src="assets/img/about/iatasa.png" alt="">
+                </a>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5>{{ "ABOUT_SECTION.MAY_DEC" | translate }}</h5>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.IATASA.IATASA" | translate }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <a class="portfolio-link" href="http://iatasa.com/Web/Default.aspx" target="_blank"> {{ "SITE" | translate }}</a>
+                  <p class="text-muted">{{ "ABOUT_SECTION.IATASA_INTRO" | translate }}</p>
+                  <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Iatasa')">
+                    {{ 'READ_MORE' | translate }}
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-image">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                  <img class="rounded-circle img-fluid" src="assets/img/about/access_informatica.png" alt="">
+                </a>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5>{{ "ABOUT_SECTION.AUG_APR" | translate }}</h5>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.ACCESS" | translate }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <a class="portfolio-link" href="http://mlmanager.com.ar/" target="_blank"> {{ 'SITE' | translate }}</a>
+                  <p class="text-muted">{{ "ABOUT_SECTION.ACCESS_INTRO" | translate }}
+                  </p>
+                  
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    {{ 'READ_MORE' | translate }}
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted timeline-item">
+              <div class="timeline-image">
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                <img class="rounded-circle img-fluid" src="assets/img/about/cablevision_fibertel.jpg" alt="">
+                </a>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5>{{ "ABOUT_SECTION.MARCH_AUG" | translate }}</h5>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.CABLEVISION" | translate }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <a class="portfolio-link" href="https://www.cablevisionfibertel.com.ar/" target="_blank"> {{ "SITE" | translate }}</a>
+                  <p class="text-muted">{{ "ABOUT_SECTION.CABLEVISION_INTRO" | translate }}
+                  </p>
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                    {{ 'READ_MORE' | translate }}
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>

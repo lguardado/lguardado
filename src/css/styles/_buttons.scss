@@ -1,0 +1,138 @@
+
+.primary-button {
+  color: $white-color;
+  background: $red-color;
+  span {
+    text-transform: uppercase;
+  }
+  &:hover, &:active {
+    color: $white-color;
+    background: $button-hover-dark-red-color;
+  }
+  &:focus {
+    color: $white-color;
+    @include box-shadow(inset 0 0 0 2px $red-color, inset 0 0 0 4px $white-color);
+
+    &:hover {
+      @include box-shadow(inset 0 0 0 2px $button-hover-dark-red-color, inset 0 0 0 4px $white-color);
+    }
+  }
+  &[disabled] {
+    background: $neutral-gray;
+  }
+  &.spinner .sk-circle .sk-child:before {
+    background-color: $white-color;
+  }
+}
+
+.secondary-button {
+  color: $white-color;
+  background: $charcoal-color;
+  span {
+    text-transform: uppercase;
+  }
+  &:hover, &:active {
+    color: $white-color;
+    background: $button-hover-dark-charcoal-color;
+  }
+  &:focus {
+    color: $white-color;
+    @include box-shadow(inset 0 0 0 2px $charcoal-color, inset 0 0 0 4px $white-color);
+
+    &:hover {
+      @include box-shadow(inset 0 0 0 2px $button-hover-dark-charcoal-color, inset 0 0 0 4px $white-color);
+    }
+  }
+  &[disabled] {
+    background: $neutral-gray;
+  }
+  &.spinner .sk-circle .sk-child:before {
+    background-color: $white-color;
+  }
+}
+
+.tertiary-button {
+  color: $charcoal-color;
+  background: $wash-gray-color;
+  span {
+    text-transform: uppercase;
+  }
+  &:hover, &:active {
+    color: $charcoal-color;
+    background: $button-hover-dark-neutral-gray;
+  }
+  &:focus {
+    color: $charcoal-color;
+    @include box-shadow(inset 0 0 0 2px $wash-gray-color, inset 0 0 0 4px $white-color);
+
+    &:hover {
+      @include box-shadow(inset 0 0 0 2px $button-hover-dark-neutral-gray, inset 0 0 0 4px $white-color);
+    }
+  }
+  &[disabled] {
+    color: $white-color;
+    background: $neutral-gray;
+  }
+  &.spinner .sk-circle .sk-child:before {
+    background-color: $charcoal-color;
+  }
+}
+
+.inline-button {
+  color: $charcoal-color;
+  background: rgba(0, 0, 0, 0);
+  span {
+    text-transform: uppercase;
+  }
+  &:hover, &:active {
+    color: $charcoal-color;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  &:focus {
+    color: $charcoal-color;
+    @include box-shadow(inset 0 0 0 2px $charcoal-color);
+
+    &:hover {
+      @include box-shadow(inset 0 0 0 2px $charcoal-color);
+    }
+  }
+  &[disabled] {
+    color: $light-gray-color;
+    background: rgba(0, 0, 0, 0);
+  }
+  &.spinner .sk-circle .sk-child:before {
+    background-color: $charcoal-color;
+  }
+}
+
+/*
+Spinner Button: How To:
+
+component.ts
+spinner: any = Array(12);
+
+component.html
+<button class="colorclass-button spinner">
+  <span>Label</span>
+  <div class="sk-circle" >
+    <div *ngFor="let val of spinner; let i = index; " class="sk-child" [ngClass]="'sk-circle'+(i+1)" ></div>
+  </div>
+</button>
+*/
+.spinner {
+  span {
+    display: block;
+  }
+  .sk-circle {
+    display: none;
+  }
+  &.loading {
+    span {
+      display: none;
+    }
+    .sk-circle {
+      display: block;
+    }
+    padding: 6px 25px;
+  }
+}
