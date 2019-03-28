@@ -1,8 +1,7 @@
 
 
   <!-- Feedback -->
-  <section class="bg-light" >
-    <div id="feedback" class="section-marker"></div>
+  <section class="bg-light" id="feedback">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -14,10 +13,10 @@
         <!-- Feedback member -->
         <div class="col-sm-4">
           <div class="feedback-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/1.png" alt="" data-toggle="modal" href="#feedbackModal1">
+            <img class="mx-auto rounded-circle" src="assets/img/team/1.png" alt="" data-toggle="modal" (click)="openDialog(1)">
             <!-- Partial feedback -->
             <p class="text-muted feedback-text">"Lucas is one of the nicest people I have worked with..."</p>
-            <a class="portfolio-link" data-toggle="modal" href="#feedbackModal1">
+            <a class="portfolio-link" data-toggle="modal" (click)="openDialog(1)">
               {{ 'READ_MORE' | translate }}
             </a>
           </div>
@@ -25,12 +24,12 @@
         <!-- Feedback member -->
         <div class="col-sm-4">
           <div class="feedback-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/2.png" alt="" data-toggle="modal" href="#feedbackModal2">
+            <img class="mx-auto rounded-circle" src="assets/img/team/2.png" alt="" data-toggle="modal" (click)="openDialog(2)">
             <!-- Partial feedback -->
             <p class="text-muted feedback-text">"Lucas is very knowledgeable and has the unique skill of questioning everything that is
               unclear..."
             </p>
-            <a class="portfolio-link feedback-text" data-toggle="modal" href="#feedbackModal2">
+            <a class="portfolio-link feedback-text" data-toggle="modal" (click)="openDialog(2)">
                 {{ 'READ_MORE' | translate }}
             </a>
           </div>
@@ -38,10 +37,10 @@
         <!-- Feedback member -->
         <div class="col-sm-4">
           <div class="feedback-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/3.png" alt="" data-toggle="modal" href="#feedbackModal3">
+            <img class="mx-auto rounded-circle" src="assets/img/team/3.png" alt="" data-toggle="modal" (click)="openDialog(3)">
             <!-- Partial feedback -->
             <p class="text-muted feedback-text">"Lucas is the epitome of the principle Catch Excellence..."</p>
-            <a class="portfolio-link" data-toggle="modal" href="#feedbackModal3">
+            <a class="portfolio-link" data-toggle="modal" (click)="openDialog(3)">
                 {{ 'READ_MORE' | translate }}
             </a>
           </div>
@@ -49,11 +48,11 @@
         <!-- Feedback member -->
         <div class="col-sm-4">
           <div class="feedback-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/4.png" alt="" data-toggle="modal" href="#feedbackModal4">
+            <img class="mx-auto rounded-circle" src="assets/img/team/4.png" alt="" data-toggle="modal" (click)="openDialog(4)">
             <!-- Partial feedback -->
             <p class="text-muted feedback-text">"The biggest thing I have noticed change in Lucas lately is that he is embracing his role
               a leader..."</p>
-            <a class="portfolio-link" data-toggle="modal" href="#feedbackModal4">
+            <a class="portfolio-link" data-toggle="modal" (click)="openDialog(4)">
                 {{ 'READ_MORE' | translate }}
             </a>
           </div>
@@ -61,10 +60,10 @@
         <!-- Feedback member -->
         <div class="col-sm-4">
           <div class="feedback-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/5.png" alt="" data-toggle="modal" href="#feedbackModal5">
+            <img class="mx-auto rounded-circle" src="assets/img/team/5.png" alt="" data-toggle="modal" (click)="openDialog(5)">
             <!-- Partial feedback -->
             <p class="text-muted feedback-text">"Lucas has the ability to learn new technologies very easily..."</p>
-            <a class="portfolio-link" data-toggle="modal" href="#feedbackModal5">
+            <a class="portfolio-link" data-toggle="modal" (click)="openDialog(5)">
                 {{ 'READ_MORE' | translate }}
             </a>
           </div>

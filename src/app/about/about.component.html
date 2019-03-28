@@ -1,12 +1,6 @@
 
   <!-- About -->
-  <section>
-      <ol>
-          <li>
-            <button mat-raised-button (click)="openDialog()">Pick one</button>
-          </li>
-        </ol>
-    <div class="section-marker" id="about"></div>
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -19,7 +13,7 @@
           <ul class="timeline">
             <li class="timeline-item">
                 <div class="timeline-image">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Solstice')">
                       <img class="rounded-circle img-fluid" src="assets/img/about/solstice.jpg" alt="">
                     </a>
                   </div>
@@ -39,7 +33,7 @@
             </li>
             <li class="timeline-inverted timeline-item">
               <div class="timeline-image">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Iatasa')">
                   <img class="rounded-circle img-fluid" src="assets/img/about/iatasa.png" alt="">
                 </a>
               </div>
@@ -59,21 +53,21 @@
             </li>
             <li class="timeline-item">
               <div class="timeline-image">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Access')">
                   <img class="rounded-circle img-fluid" src="assets/img/about/access_informatica.png" alt="">
                 </a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h5>{{ "ABOUT_SECTION.AUG_APR" | translate }}</h5>
-                  <h4 class="subheading">{{ "ABOUT_SECTION.ACCESS" | translate }}</h4>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.ACCESS.ACCESS" | translate }}</h4>
                 </div>
                 <div class="timeline-body">
                   <a class="portfolio-link" href="http://mlmanager.com.ar/" target="_blank"> {{ 'SITE' | translate }}</a>
                   <p class="text-muted">{{ "ABOUT_SECTION.ACCESS_INTRO" | translate }}
                   </p>
                   
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                  <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Access')">
                     {{ 'READ_MORE' | translate }}
                   </a>
                 </div>
@@ -81,20 +75,20 @@
             </li>
             <li class="timeline-inverted timeline-item">
               <div class="timeline-image">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                  <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Cablevision')">
                 <img class="rounded-circle img-fluid" src="assets/img/about/cablevision_fibertel.jpg" alt="">
                 </a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h5>{{ "ABOUT_SECTION.MARCH_AUG" | translate }}</h5>
-                  <h4 class="subheading">{{ "ABOUT_SECTION.CABLEVISION" | translate }}</h4>
+                  <h4 class="subheading">{{ "ABOUT_SECTION.CABLEVISION.CABLEVISION" | translate }}</h4>
                 </div>
                 <div class="timeline-body">
                   <a class="portfolio-link" href="https://www.cablevisionfibertel.com.ar/" target="_blank"> {{ "SITE" | translate }}</a>
                   <p class="text-muted">{{ "ABOUT_SECTION.CABLEVISION_INTRO" | translate }}
                   </p>
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                  <a class="portfolio-link" data-toggle="modal" (click)="openDialog('Cablevision')">
                     {{ 'READ_MORE' | translate }}
                   </a>
                 </div>

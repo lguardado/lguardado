@@ -1,0 +1,10 @@
+<h2 mat-dialog-title class="title">{{ 'FEEDBACK.MODAL_TITLE' | translate }}</h2>
+<div mat-dialog-content class="modal-dialog-content">
+   
+  <p innerHTML="{{ 'FEEDBACK.' + 'FEEDBACK_' + data + '.FEEDBACK' | translate }}"></p>
+  <p>{{ 'FEEDBACK.FEEDBACK_' + data + '.DATE' | translate }}</p>
+  <p>{{ 'FEEDBACK.FEEDBACK_' + data + '.PROJECT' | translate }}</p>
+</div>
+<div mat-dialog-actions>
+  <button class="modal-button" mat-button (click)="onNoClick()">Close</button>
+</div>

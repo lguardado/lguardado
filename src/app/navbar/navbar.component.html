@@ -1,49 +1,34 @@
 <nav class="navbar" [class.scrolling]="!isTopScroll">
-  <a id="education-ref" href="#education" class="text-uppercase navbar-option">{{ "EDUCATION.EDUCATION" | translate }}</a>
-  <a id="skills-ref" href="#skills" class="text-uppercase navbar-option">{{ "NAVBAR.SKILLS" | translate }}</a>
-  <a id="experience-ref" href="#about" class="text-uppercase navbar-option">{{ "NAVBAR.EXPERIENCE" | translate }}</a>
-  <a id="feedback-ref" href="#feedback" class="text-uppercase navbar-option">{{ "NAVBAR.FEEDBACK" | translate }}</a>
-  <a id="contact-ref" href="#contact" class="text-uppercase navbar-option">{{ "NAVBAR.CONTACT" | translate }}</a>
-  <a id="download-ref" href="#print" class="text-uppercase navbar-option">{{ "NAVBAR.DOWNLOAD" | translate }}</a>
-  <img (click)="imageClick()" class="lang-button" src="{{ url }}"/>
+  <a class="lucas d-xl-none" [class.top]="isTopScroll" [routerLink]="'/'" [fragment]="'top'">Lucas Guardado</a>
+  <a id="education-ref" [routerLink]="'/'" [fragment]="'education'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "EDUCATION.EDUCATION" | translate }}</a>
+  <a id="skills-ref" [routerLink]="'/'" [fragment]="'skills'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "NAVBAR.SKILLS" | translate }}</a>
+  <a id="experience-ref" [routerLink]="'/'" [fragment]="'about'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "NAVBAR.EXPERIENCE" | translate }}</a>
+  <a id="feedback-ref" [routerLink]="'/'" [fragment]="'feedback'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "NAVBAR.FEEDBACK" | translate }}</a>
+  <a id="contact-ref" [routerLink]="'/'" [fragment]="'contact'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "NAVBAR.CONTACT" | translate }}</a>
+  <a id="download-ref" [routerLink]="'/'" [fragment]="'print'"
+    class="text-uppercase navbar-option d-none d-md-block">{{ "NAVBAR.DOWNLOAD" | translate }}</a>
+
+  <div>
+    <button mat-button [matMenuTriggerFor]="menu" class="menu-button d-inline-block d-md-none">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="'/'" [fragment]="'education'"
+        class="text-uppercase navbar-option">{{ "EDUCATION.EDUCATION" | translate }}</button>
+      <button mat-menu-item  [routerLink]="'/'" [fragment]="'skills'"
+        class="text-uppercase navbar-option">{{ "NAVBAR.SKILLS" | translate }}</button>
+      <button mat-menu-item  [routerLink]="'/'" [fragment]="'about'"
+        class="text-uppercase navbar-option">{{ "NAVBAR.EXPERIENCE" | translate }}</button>
+      <button mat-menu-item  [routerLink]="'/'" [fragment]="'feedback'"
+        class="text-uppercase navbar-option">{{ "NAVBAR.FEEDBACK" | translate }}</button>
+      <button mat-menu-item  [routerLink]="'/'" [fragment]="'contact'"
+        class="text-uppercase navbar-option">{{ "NAVBAR.CONTACT" | translate }}</button>
+      <button mat-menu-item [routerLink]="'/'" [fragment]="'print'"
+        class="text-uppercase navbar-option">{{ "NAVBAR.DOWNLOAD" | translate }}</button>
+    </mat-menu>
+    <img (click)="imageClick()" class="lang-button" src="{{ url }}" />
+  </div>
 </nav>
-
-
-<!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Lucas Guardado</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="nav-item">
-          <a class="es nav-link js-scroll-trigger" href="#skills">Aptitudes</a>
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="es nav-link js-scroll-trigger" href="#about">Experiencia</a>
-          <a class="nav-link js-scroll-trigger" href="#about">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#feedback">Feedback</a>
-        </li>
-        <li class="nav-item">
-          <a class="es nav-link js-scroll-trigger" href="#contact">Contacto</a>
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#print">Download</a>
-          <a class="es nav-link js-scroll-trigger" href="#print">Descargar</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="lang-section">
-    <a class="es navbar-lang navbar-language-selected js-en-trigger">English</a>
-    <a class="navbar-lang navbar-language-selected js-en-trigger">Español</a>
-  </div>
-</nav> -->

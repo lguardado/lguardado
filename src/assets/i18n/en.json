@@ -29,34 +29,55 @@
     "AUG_APR": "August 2014 - April 2015",
     "SOLSTICE_INTRO": "I'm currently working at Solstice as a Technical Consultant. My job is not only to deliver reusable and scalable code, but also to be able to guide our clients from a technical perspective to obtain an excellent product",
     "IATASA_INTRO": "Worked at Iatasa engineering as a .Net developer and I had the chance to take control of an external contracted company's Android project and take care from that moment.",
-    "CABLEVISION": "Cablevisión - Fibertel - Personal",
     "CABLEVISION_INTRO": "I worked as a technical administrative at Cablevisión, the biggest internet, television and telephony provider in Argentina. It's present in 12 provinces and more than 100 towns in Argentina and Uruguay.",
-    "ACCESS": "Access Informática",
     "ACCESS_INTRO": "A teacher recruited me to work with him at his company. As a .Net developer I was able to work and know the business model of ART (aseguradoras de riesgos de trabajo) and medical companies conectivity.",
     "MY_WORK_AT": "My work at",
-    "CURRENT_PROYECT":"Current project: ",
-    "OTHER_TECHS":"Other technologies learned: ",
-    "MORE_ABOUT": "more about",
+    "TECHS": "Technologies: ",
+    "OTHER_TECHS": "Other technologies learned: ",
+    "MORE_ABOUT": "More about",
     "SOLSTICE": {
       "SOLSTICE": "Solstice",
-      "BIO": "The backbone of our organization. Consultants have proven themselves as self-managed individual contributors; they work to empower themselves and others around them. They have the ability to serve in the functional or technical lead role for a smaller projects (ie. as Scrum Master or senior developer/team lead) They are comfortable facilitating client-facing meetings during project delivery.",
+      "BIO": "<li><b>Rockwell Automation</b>: Developed a responsive app (<b>Angular 2, HTML, SCSS, Bootstrap, Javascript, Anypoint Studio</b>) for web, <b>iOS and Android</b>, integrating several sites into a new one made from scratch for managing industrial pieces searches, bills of materials, real time notifications and such. Created automated tests using <b>Selenium</b> and <b>Protractor</b>. Provided support for internal and external customer. Did onboarding to several team members (Buenos Aires. and Chicago).<br><br><li><b>Encirca</b>: Developed a native <b>Android</b> App for managing soils planting and nitrogen levels monitoring and managing.<br><br><li><b>Country Financials - Chorepal</b>: Developed a responsive app for <b>web</b>, <b>android</b> and <b>iOS</b> for managing chores, points, rewards and money bank for kids and parents using <b>Angular.js, Javascript, Ionic, HTML, SCSS</b>. Developed backend improvements and new features using <b>Node.js + MongoDB</b>. Created and maintained <b>AWS</b> lambda function to deliver monthly reports to the client.  <br><br><li><b>PSCU Financials</b>: Did a refactor of the project to improve its performance. Developed new functionalities using <b>Jquery Mobile, Javascript, HTML, CSS, Cordova</b>. Successfully deployed new versions to the app store and play store.",
       "POSITION": "Technical Consultant",
-      "CURRENT": "HTML5, SCSS, JavaScript, ES6.",
+      "TECHS": "HTML5, SCSS, JavaScript, ES6.",
       "OTHER": "Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
-      "MORE": "Solstice helps Fortune 500 companies take their customers' breath away, capture new market share, and ultimately discover the incredible potential they've yet to tap into.",
-      "MORE_URL": "assets/img/about/solstice_more_about.png",
+      "MORE": "The backbone of our organization. Consultants have proven themselves as self-managed individual contributors; they work to empower themselves and others around them. They have the ability to serve in the functional or technical lead role for a smaller projects (ie. as Scrum Master or senior developer/team lead) They are comfortable facilitating client-facing meetings during project delivery. <br> Solstice helps Fortune 500 companies take their customers' breath away, capture new market share, and ultimately discover the incredible potential they've yet to tap into.",
       "MORE_PART2": "We’ve been around for a long time and have no signs of slowing down. We’ve created and sustained life in seemingly impossible ways. And when harnessed properly, we generate a force of change unlike anything else. When it comes to the future of your business, we’re the burst of energy you need to get past theory, to get past hearsay and make a decision: Are you going to be a spectator to the unstoppable technological advances heading your way, or will you lead them?",
       "URL": "https://www.solstice.com/join-our-team-buenos-aires",
       "IMAGE_URL": "/assets/img/about/solstice_more_about.png"
     },
     "IATASA": {
       "IATASA": "Iatasa engineering",
+      "BIO": "<li>Develop, improvement and maintenance of urban cleaning management systems, engineering contract management systems through a web and Android mobile app.<li>Microsoft SQL database",
       "POSITION": ".Net / Android Developer",
-      "BIO": "Develop, improvement and maintenance of urban cleaning management systems, engineering contract management systems through a web and Android mobile app.",
-      "CURRENT": "HTML5, SCSS, JavaScript, ES6.",
-      "OTHER": "Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
+      "TECHS": "Android Studio, ASP.Net, VB.Net, JavaScript, SQL Server (queries, table creation, Triggers, Stored Procedures, Views, Functions)",
+      "OTHER": "",
+      "MORE": "Firm dedicated since 1961 to the direction of big public projects and industrial ventures.",
+      "MORE_PART2": "",
       "URL": "http://iatasa.com/Web/Default.aspx",
       "IMAGE_URL": "/assets/img/about/iatasa_modal_content.jpg"
+    },
+    "ACCESS": {
+      "ACCESS": "Access Informática",
+      "BIO": "<li>Develop, improvement and maintenance of medical assurance systems, working medicine, comunication with providers through automatic system.",
+      "POSITION": ".Net Developer",
+      "TECHS": "ASP.Net, VB.Net, JavaScript, DevExpress, SQL Server (queries, table creation, Triggers, Stored Procedures, Views, Functions)",
+      "OTHER": "",
+      "MORE": "Medicina Laboral: Informatizamos toda la operatoria de los centros médicos de medicina laboral, desde la atención primaria de trabajadores, la gestión de turnos on line, historia clínica electrónica, comunicación con entidades externas, facturación más cientos de funcionalidades.",
+      "MORE_PART2": "ART Proveemos software en toda la cadena de valor, desde sus centros médicos propios, pasando por la integración con sus prestadores, hasta la gestión interna de siniestros, prestaciones y prevención.",
+      "URL": "http://mlmanager.com.ar/",
+      "IMAGE_URL": "/assets/img/about/access_informatica_modal_content.png"
+    },
+    "CABLEVISION": {
+      "CABLEVISION": "Cablevisión - Fibertel - Personal",
+      "BIO": "<ul><li>Asistencia telefónica y vía mail a cliente interno<li>Soporte técnico telefónico a clientes<li>Control y consumo de materiales (SAP)<li>Control de inconsistencia de equipos cablemodem y decodificadores<li>Regularización de clientes<li>Validación de tareas de técnicos de calle<li>Certiﬁcación de contratistas<li>Cierre y control de pendiente de órdenes de trabajo (OT)<li>Gestión de archivo de OT y armado de pallets <li>Búsqueda y escaneo de OT para los sectores de Legales y Auditoría<li>Realización de informes<li>Gestión de services duplicados en domicilio<li>Armado de recorrido de técnicos (instalaciones / service / redes)<li>Cruce de información en base de datos",
+      "POSITION": "Instalation, service and reestructiration  (support to technicians)",
+      "TECHS": "",
+      "OTHER": "",
+      "MORE": "Cablevisión is a telecomunications company present in 12 provinces and more than 100 towns in Argentina and Uruguay.<br> The company devides its services in three big business units: <li><b>Cablevisión</b>, which offers the most modern paid TV service in the market <li><b>Fibertel</b> which provides a high speed internet service and Fibercorp, the corporate business unit that offers integrated telecomunication solutions to big, medium and small companies. <br><br>In other side, the company has aquired Nextel Argentina and Personal Argentina, and it will start developing in the mobile phone business. In the last 10 years, Cablevisión has inverted more than 3000 million dollar in: The develop of the only optical fiber net alternative in Argentina, with more than 55000 kilmeters of extention. The deployment of a interurban backbone with more than 9500 kilometers, which has given a robustness and reliability to offer different kinds of products. Digitalization of the network.",
+      "MORE_PART2": "",
+      "URL": "https://www.cablevisionfibertel.com.ar/",
+      "IMAGE_URL": "/assets/img/about/cablevision_modal_content.png"
     }
   },
   "SKILLS": {
@@ -87,12 +108,38 @@
   "PRINT": {
     "CV": "CV - Printable version",
     "YOU_CAN_DOWNLOAD": "You can download a PDF version of my CV clicking"
-  }, 
+  },
   "FEEDBACK": {
     "ABOUT": "Feedback about me!",
-    "INTRO": "Every 3 months I get feedback from my closer co-workers in a process called 360 review. Here are some of the opinions about me from my co-workers in Chicago!"
+    "INTRO": "Every 3 months I get feedback from my closer co-workers in a process called 360 review. Here are some of the opinions about me from my co-workers in Chicago!",
+    "MODAL_TITLE": "360 review feedback",
+    "FEEDBACK_1": {
+      "FEEDBACK": "<i>\"Lucas is one of the nicest people I have worked with. The best part is, he's still critical and will tell me if he feels something could be better or if I made a mistake. He always does that politely. When we unexpectedly lost a developer on our team and then brought a new person on, he assisted me greatly with onboarding, bringing the new team member up to speed within the same day.\"",
+      "DATE": "Date: August 2018",
+      "PROJECT": "Project: Rockwell Automation"
+    },
+    "FEEDBACK_2": {
+      "FEEDBACK": "<i>\"Lucas is very knowledgeable and has the unique skill of questioning everything that is unclear. That goes a long way because not only will there be less if any defects on his work, but when he has to do something similar, he can easily relate and complete the work with minimal oversight. Because Lucas takes the time to understand the work he's doing, I can rely on him to help other team members who have questions. I also appreciate that he does that without me even asking him to do so.\"",
+      "DATE": "Date: August 2018",
+      "PROJECT": "Project: Rockwell Automation"
+    },
+    "FEEDBACK_3": {
+      "FEEDBACK": "<i>\"Lucas is the epitome of the principle Catch Excellence. I know this from being lucky enough to work with him on Rockwell. Any request that comes his way, he jumps right in to help. Any opportunity he sees to help someone out, he is there. One good example of this is his willingness to take on challenges that the team needs. For example, we have backend and API heavy stories that come into a sprint that need someone to work. Lucas, even though he has not done a lot of backend type work in past roles, jumps at the opportunity to strengthen his full stack expertise. Not only is he eager to face those opportunities but it is easy to tell that he is becoming a serious full stack dev quickly as these backend stories that Lucas takes on are getting done quicker and quicker. This confidence and growing leadership role that Lucas has taken on recently has given the team and I confidence as our tech lead rolls off the project. Even though we have a strong tech lead leaving the project soon, I am not worried about the transition because of how good of a developer and communicator Lucas is. I know that I can rely on him to fill parts of the tech lead gaps that may come and I could see him becoming a tech lead on a team very very soon. Engineering circle meetings: Lucas is an avid attendee and participant in engineering circle meetings where he helps build out the BA engineering practice and engineering rocks. Most recently, the circle has been focused on getting devs into courses that will push the rocks forward, something Lucas eagerly took the opportunity to get involved in. Taking a springboot course: As part of Lucas' involvement in the engineering circle, he seized the opportunity to take a springboot course on his own time. This will push his own skills forward but also help round out the engineering practices' breadth of knowledge.\"",
+      "DATE": "Date: August 2018",
+      "PROJECT": "Project: Rockwell Automation"
+    },
+    "FEEDBACK_4": {
+      "FEEDBACK": "<i>\"The biggest thing I have noticed change in Lucas lately is that he is embracing his role a leader on the team. He has always been somewhat quiet but as he gets to know the team better and break out of his shell a little more, that leads to Lucas taking on more of a teach leadership role on our stream. He asks thoughtful questions in refinement and estimations, he helps review AC and brings up instances where the AC may not make sense or need something else, and his programming skills are better than ever. He also has no hesitations about communicating about anything and that goes a long way - his open and honest communication has helped the team work more cohesively.\"",
+      "DATE": "Date: August 2018",
+      "PROJECT": "Project: Rockwell Automation"
+    },
+    "FEEDBACK_5": {
+      "FEEDBACK": "<i>\"Lucas has the ability to learn new technologies very easily. He easily picked up developing on a different language and platform when we needed him to. Lucas takes criticism very well. He will never get angry or frustrated if you point out something that may have been overlooked. When told best practices when implementing a new feature, he will take it in stride and make it even better. He is also comfortable orchestrating demos for the work we had completed during sprints to the client.\"",
+      "DATE": "Date: August 2018",
+      "PROJECT": "Project: Rockwell Automation"
+    }
   },
-  "FOOTER" : {
+  "FOOTER": {
     "UPDATED": "Updated"
   },
   "SITE": "Website",

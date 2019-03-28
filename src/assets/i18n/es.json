@@ -22,41 +22,62 @@
     "LA_SALETTE": "Instituto La Salette - Finalizado"
   },
   "ABOUT_SECTION": {
-    "EXPERIENCE": "Working experience",
-    "DEC_NOW": "December 2015 - now",
-    "MAY_DEC": "May 2015 - December 2015",
-    "MARCH_AUG": "March 2006 - August 2014",
-    "AUG_APR": "August 2014 - April 2015",
-    "SOLSTICE_INTRO": "I'm currently working at Solstice as a Technical Consultant. My job is not only to deliver reusable and scalable code, but also to be able to guide our clients from a technical perspective to obtain an excellent product",
-    "IATASA_INTRO": "Worked at Iatasa engineering as a .Net developer and I had the chance to take control of an external contracted company's Android project and take care from that moment.",
-    "CABLEVISION": "Cablevisión - Fibertel - Personal",
-    "CABLEVISION_INTRO": "I worked as a technical administrative at Cablevisión, the biggest internet, television and telephony provider in Argentina. It's present in 12 provinces and more than 100 towns in Argentina and Uruguay.",
-    "ACCESS": "Access Informática",
-    "ACCESS_INTRO": "A teacher recruited me to work with him at his company. As a .Net developer I was able to work and know the business model of ART (aseguradoras de riesgos de trabajo) and medical companies conectivity.",
-    "MY_WORK_AT": "My work at",
-    "CURRENT_PROYECT":"Current project: ",
-    "OTHER_TECHS":"Other technologies learned: ",
-    "MORE_ABOUT": "more about",
+    "EXPERIENCE": "Experiencia",
+    "DEC_NOW": "Diciembre 2015 - ahora",
+    "MAY_DEC": "Mayo 2015 - Diciembre 2015",
+    "MARCH_AUG": "Marzo 2006 - Agosto 2014",
+    "AUG_APR": "Agosto 2014 - Abril 2015",
+    "SOLSTICE_INTRO": "Actualmente trabajo en Solstice como Technical Consultant. Mi trabajo es no solo entregar un codigo reusable y escalable, sino además poder guiar a nuestros clientes desde una perspectiva tecnica para obtener un producto de excelencia.",
+    "IATASA_INTRO": "Trabajé en Iatasa ingeniería como desarrollador .Net y tuve la oportunidad de tomar control de un proyecto de Android que estaba tercerizado a una compañía externa y ocuparme de ese proyecto a partir de ese momento.",
+    "CABLEVISION_INTRO": "Trabajé como administrativo técnico en Cablevisión, la compañía de internet, television y telefonia mas grande de Argentina. Una compañía de telecomunicaciones presente en 12 provincias y más de 100 localidades de Argentina y en Uruguay.",
+    "ACCESS_INTRO": "Un profesor de mi facultad me reclutó para trabajar en su compañía. Como desarrollador .Net pude trabajar y conocer el modelo de negocio de ART (aseguradoras de riesgos de trabajo) y conectividad entre prestadores medicos.",
+    "MY_WORK_AT": "Mi trabajo en",
+    "TECHS":"Tecnologías: ",
+    "OTHER_TECHS":"Otras tecnologías aprendidas: ",
+    "MORE_ABOUT": "Más sobre",
     "SOLSTICE": {
       "SOLSTICE": "Solstice",
-      "BIO": "La columna vertebral de nuestra organización. Los Consultants se han demostrado como individuos colaboradores auto-administrables; trabajan para motivarse a si mismos y a otros a su alrededor. Tienen la habilidad de servir en el rol de lider funcional o lider técnico para proyectos chicos. (por ejemplo como Scrum Master o senior developer/lider de equipo) Se manejan comodamente facilitando reuniones con el cliente durante la entrega del proyecto.",
+      "BIO": "<li><b>Rockwell Automation</b>: Developed a responsive app (<b>Angular 2, HTML, SCSS, Bootstrap, Javascript, Anypoint Studio</b>) for web, <b>iOS and Android</b>, integrating several sites into a new one made from scratch for managing industrial pieces searches, bills of materials, real time notifications and such. Created automated tests using <b>Selenium</b> and <b>Protractor</b>. Provided support for internal and external customer. Did onboarding to several team members (Buenos Aires. and Chicago).<br><br><li><b>Encirca</b>: Developed a native <b>Android</b> App for managing soils planting and nitrogen levels monitoring and managing.<br><br><li><b>Country Financials - Chorepal</b>: Developed a responsive app for <b>web</b>, <b>android</b> and <b>iOS</b> for managing chores, points, rewards and money bank for kids and parents using <b>Angular.js, Javascript, Ionic, HTML, SCSS</b>. Developed backend improvements and new features using <b>Node.js + MongoDB</b>. Created and maintained <b>AWS</b> lambda function to deliver monthly reports to the client.  <br><br><li><b>PSCU Financials</b>: Did a refactor of the project to improve its performance. Developed new functionalities using <b>Jquery Mobile, Javascript, HTML, CSS, Cordova</b>. Successfully deployed new versions to the app store and play store.",
       "POSITION": "Technical Consultant",
-      "CURRENT": "HTML5, SCSS, JavaScript, ES6.",
+      "TECHS": "HTML5, SCSS, JavaScript, ES6.",
       "OTHER": "Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
-      "MORE": "Solstice helps Fortune 500 companies take their customers' breath away, capture new market share, and ultimately discover the incredible potential they've yet to tap into.",
-      "MORE_URL": "img/about/solstice_more_about.png",
+      "MORE": "The backbone of our organization. Consultants have proven themselves as self-managed individual contributors; they work to empower themselves and others around them. They have the ability to serve in the functional or technical lead role for a smaller projects (ie. as Scrum Master or senior developer/team lead) They are comfortable facilitating client-facing meetings during project delivery. <br> Solstice helps Fortune 500 companies take their customers' breath away, capture new market share, and ultimately discover the incredible potential they've yet to tap into.",
       "MORE_PART2": "We’ve been around for a long time and have no signs of slowing down. We’ve created and sustained life in seemingly impossible ways. And when harnessed properly, we generate a force of change unlike anything else. When it comes to the future of your business, we’re the burst of energy you need to get past theory, to get past hearsay and make a decision: Are you going to be a spectator to the unstoppable technological advances heading your way, or will you lead them?",
       "URL": "https://www.solstice.com/join-our-team-buenos-aires",
       "IMAGE_URL": "/assets/img/about/solstice_more_about.png"
     },
     "IATASA": {
       "IATASA": "Iatasa ingeniería",
+      "BIO": "<li>Desarrollo, mejora y mantenimiento de sistemas de gestión de higiene urbana, comunicaciones de contratos de ingeniería en aplicación Web y App Android<li>Manejo de base de datos: Microsoft SQL",
       "POSITION": ".Net / Android Developer",
-      "BIO": "Desarrollo, mejora y mantenimiento de sistemas de gestión de higiene urbana, comunicaciones de contratos de ingeniería en aplicación Web y App Android",
-      "CURRENT": "Tecnologías: Android Studio, ASP.Net, VB.Net, JavaScript, SQL Server (Consultas, Creación de Tablas, programación de Triggers, Stored Procedures, Vistas, Funciones)",
-      "OTHER": "Manejo de base de datos: Microsoft SQL, Jquery Mobile, Node.JS, Angular 5, Ionic, Android Studio, iOS - objective C",
-      "URL": "https://www.solstice.com/join-our-team-buenos-aires",
-      "IMAGE_URL": "http://iatasa.com/Web/Default.aspx"
+      "TECHS": "Android Studio, ASP.Net, VB.Net, JavaScript, SQL Server (Consultas, Creación de Tablas, programación de Triggers, Stored Procedures, Vistas, Funciones)",
+      "OTHER": "",
+      "MORE": "Firma dedicada desde 1961 al proyecto y a la dirección de grandes obras públicas y emprendimientos industriales en la vanguardia argentina de la ingeniería mundial.",
+      "MORE_PART2": "",
+      "URL": "http://iatasa.com/Web/Default.aspx",
+      "IMAGE_URL": "/assets/img/about/iatasa_modal_content.jpg"
+    },
+    "ACCESS": {
+      "ACCESS": "Access Informática",
+      "BIO": "Desarrollo, mejora y mantenimiento de sistemas de gestión de Aseguradoras de Riesgos de Trabajo, medicina laboral, comunicación con sus respectivos prestadores.",
+      "POSITION": ".Net Developer",
+      "TECHS": "ASP.Net, VB.Net, JavaScript, DevExpress, SQL Server (Consultas, Creación de Tablas,programación de Triggers, Stored Procedures, Vistas, Funciones)",
+      "OTHER": "",
+      "MORE": "Medicina Laboral: Informatizamos toda la operatoria de los centros médicos de medicina laboral, desde la atención primaria de trabajadores, la gestión de turnos on line, historia clínica electrónica, comunicación con entidades externas, facturación más cientos de funcionalidades.",
+      "MORE_PART2": "ART Proveemos software en toda la cadena de valor, desde sus centros médicos propios, pasando por la integración con sus prestadores, hasta la gestión interna de siniestros, prestaciones y prevención.",
+      "URL": "http://mlmanager.com.ar/",
+      "IMAGE_URL": "/assets/img/about/access_informatica_modal_content.png"
+    },
+    "CABLEVISION": {
+      "CABLEVISION": "Cablevisión - Fibertel - Personal",
+      "BIO": "<ul><li>Asistencia telefónica y vía mail a cliente interno<li>Soporte técnico telefónico a clientes<li>Control y consumo de materiales (SAP)<li>Control de inconsistencia de equipos cablemodem y decodificadores<li>Regularización de clientes<li>Validación de tareas de técnicos de calle<li>Certiﬁcación de contratistas<li>Cierre y control de pendiente de órdenes de trabajo (OT)<li>Gestión de archivo de OT y armado de pallets <li>Búsqueda y escaneo de OT para los sectores de Legales y Auditoría<li>Realización de informes<li>Gestión de services duplicados en domicilio<li>Armado de recorrido de técnicos (instalaciones / service / redes)<li>Cruce de información en base de datos",
+      "POSITION": "Despachante de técnicos de instalaciones, service, reestructuraciones (soporte tecnico via radiollamado)",
+      "TECHS": "",
+      "OTHER": "",
+      "MORE": "Cablevisión es una compañía de telecomunicaciones presente en 12 provincias y más de 100 localidades de Argentina y en Uruguay. <br>La compañía divide sus servicios en tres grandes unidades de negocio: <li> <b>Cablevisión</b>, que ofrece el servicio de TV paga más moderno del mercado <li><b>Fibertel</b>, que brinda servicio de Internet de alta velocidad y FiberCorp, la unidad de negocios corporativos que ofrece soluciones integrales de telecomunicaciones a grandes, medianas y pequeñas empresas. <br><br>Por otra parte la compañía ha adquirido Nextel Argentina y Personal Argentina, con las que buscará desarrollarse en el negocio de telefonía móvil. <br>En los últimos 10 años, Cablevisión lleva invertidos más de 3000 millones de dólares en: El desarrollo de la única red de fibra óptica alternativa de la Argentina, con más de 55000 kilómetros de extensión. El despliegue de un backbone interurbano con más de 9500 kilómetros, que le han dado robustez y confiabilidad para ofrecer diferentes tipos de productos. La digitalización de la red.",
+      "MORE_PART2": "",
+      "URL": "https://www.cablevisionfibertel.com.ar/",
+      "IMAGE_URL": "/assets/img/about/cablevision_modal_content.png"
     }
   },
   "SKILLS": {
@@ -86,7 +107,13 @@
   },
   "FEEDBACK": {
     "ABOUT": "Feedback sobre mí!",
-    "INTRO": "Cada 3 meses obtengo feedback de mis compañeros mas cercanos en un proceso llamado 360 review. Aquí estan algunas de las opiniones sobre mí de mis compañeros de Chicago!"
+    "INTRO": "Cada 3 meses obtengo feedback de mis compañeros mas cercanos en un proceso llamado 360 review. Aquí estan algunas de las opiniones sobre mí de mis compañeros de Chicago!",
+    "MODAL_TITLE": "360 review feedback",
+    "FEEDBACK_1": "",
+    "FEEDBACK_2": "",
+    "FEEDBACK_3": "",
+    "FEEDBACK_4": "",
+    "FEEDBACK_5": ""
   },
   "PRINT": {
     "CV": "CV - Version imprimible",
@@ -95,7 +122,7 @@
   "FOOTER" : {
     "UPDATED": "Actualizado"
   },
-  "SITE": "Sitio",
+  "SITE": "Sitio web",
   "READ_MORE": "Ver más",
   "LANG": "En",
   "HERE": "Aquí!"

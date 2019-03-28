@@ -1,0 +1,38 @@
+<h2 mat-dialog-title class="title">{{ 'ABOUT_SECTION.MY_WORK_AT' | translate }} {{ data }} </h2>
+<h3 mat-dialog-subtitle> {{ 'ABOUT_SECTION.' + data.toUpperCase() + '.POSITION' | translate }} </h3>
+<div mat-dialog-content class="modal-dialog-content">
+    <img class="image-preview" src="{{ 'ABOUT_SECTION.' + data.toUpperCase() + '.IMAGE_URL' | translate }}" />
+    <br>
+    <br>
+    <br>
+    <br>
+  <p innerHTML="{{ 'ABOUT_SECTION.' + data.toUpperCase() + '.BIO' | translate }}">
+    
+  </p>
+  <div class="bold" *ngIf="data !== 'Cablevision'">
+    {{ 'ABOUT_SECTION.TECHS' | translate }}
+    {{ 'ABOUT_SECTION.' + data.toUpperCase() + '.TECHS' | translate }}
+  </div>
+  <div class="bold" *ngIf="data === 'Solstice'">
+    {{ 'ABOUT_SECTION.OTHER_TECHS' | translate }}
+    {{ 'ABOUT_SECTION.' + data.toUpperCase() + '.OTHER' | translate }}
+  </div>
+  <br>
+  <br>
+  <br>
+  <h4>{{ 'ABOUT_SECTION.MORE_ABOUT' | translate }} {{ data }}</h4>
+  <p innerHTML="{{ 'ABOUT_SECTION.' + data.toUpperCase() + '.MORE' | translate }}"> </p>
+  <p> {{ 'ABOUT_SECTION.' + data.toUpperCase() + '.MORE_PART2' | translate }} </p>
+  <br>
+  <br>
+  <br>
+
+  <a class="website" href="{{ 'ABOUT_SECTION.' + data.toUpperCase() + '.URL' | translate }}" target="_blank">{{ 'SITE' | translate}} </a>
+
+  <br>
+  <br>
+  <br>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+</div>

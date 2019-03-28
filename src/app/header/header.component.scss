@@ -45,6 +45,10 @@ header.masthead {
     }
   }
 }
+.intro-container {
+  width: 70%;
+  margin: 0 auto;
+}
 
 @media (min-width: 768px) {
   header.masthead .intro-text {

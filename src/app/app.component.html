@@ -1,5 +1,5 @@
-<div (window:scroll)="scroll()">
-  <app-navbar [isTopScroll]="isTopScroll"></app-navbar>
+<div id="top" (window:scroll)="scroll()">
+  <app-navbar #navbar [isTopScroll]="isTopScroll"></app-navbar>
   <app-header></app-header>
   <app-education></app-education>
   <app-skills></app-skills>
